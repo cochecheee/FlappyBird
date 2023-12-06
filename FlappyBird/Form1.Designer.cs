@@ -78,9 +78,9 @@
             // pipeBot
             // 
             this.pipeBot.Image = global::FlappyBird.Properties.Resources.pipe;
-            this.pipeBot.Location = new System.Drawing.Point(379, 383);
+            this.pipeBot.Location = new System.Drawing.Point(379, 419);
             this.pipeBot.Name = "pipeBot";
-            this.pipeBot.Size = new System.Drawing.Size(100, 278);
+            this.pipeBot.Size = new System.Drawing.Size(100, 242);
             this.pipeBot.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipeBot.TabIndex = 1;
             this.pipeBot.TabStop = false;
@@ -108,7 +108,7 @@
             this.lbl_gameover.AutoSize = true;
             this.lbl_gameover.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_gameover.ForeColor = System.Drawing.Color.Crimson;
-            this.lbl_gameover.Location = new System.Drawing.Point(165, 296);
+            this.lbl_gameover.Location = new System.Drawing.Point(193, 296);
             this.lbl_gameover.Name = "lbl_gameover";
             this.lbl_gameover.Size = new System.Drawing.Size(385, 29);
             this.lbl_gameover.TabIndex = 3;

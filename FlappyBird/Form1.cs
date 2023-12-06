@@ -53,7 +53,7 @@ namespace FlappyBird
 
             if(pipeBot.Left < -150)
             {
-                pipeBot.Left = 900;
+                pipeBot.Left = 950;
                 //everytime you pass through 1 pipe, score will update
                 score += 1;
             }
@@ -86,7 +86,6 @@ namespace FlappyBird
                 gravity = -5;
             }
         }
-
         private void Restart()
         {
             lbl_gameover.Visible = false;
